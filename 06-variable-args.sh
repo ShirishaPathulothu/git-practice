@@ -12,5 +12,13 @@ read -s PASSWORD
 
 echo "Enetered password is: $PASSWORD" 
 
+echo "Please enter your Password"
+
+read -s  CONFIRM PASSWORD
+
+echo "Please enter your Password"
+
+
+
 
 
