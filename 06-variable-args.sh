@@ -2,7 +2,7 @@
 
 echo "Please enter your username"
 
-read USERNAME
+read -s USERNAME
 
 echo "Entered username is: $USERNAME"
 
@@ -12,9 +12,9 @@ read -s PASSWORD
 
 echo "Enetered password is: $PASSWORD" 
 
-echo "Please enter your Password"
+echo "Please enter your Confirm Password"
 
-read -s  CONFIRM PASSWORD
+read -s CONFIRM PASSWORD
 
 echo "Please enter your Password"
 
