@@ -14,9 +14,11 @@ echo "Enetered password is: $PASSWORD"
 
 echo "Please enter to Confirm Password"
 
-read -s CONFIRM PASSWORD
+read -s CONFIRMPASSWORD
 
 echo "Enetered password is to Confirm Password: $CONFIRMPASSWORD"
+
+
 
 
 
