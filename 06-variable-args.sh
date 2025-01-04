@@ -12,11 +12,12 @@ read -s PASSWORD
 
 echo "Enetered password is: $PASSWORD" 
 
-echo "Please enter your Confirm Password"
+echo "Please enter to Confirm Password"
 
 read -s CONFIRM PASSWORD
 
-echo "Please enter your Password"
+echo "Enetered password is to Confirm Password: $CONFIRMPASSWORD"
+
 
 
 
