@@ -19,6 +19,6 @@ echo "files: $FILES"
 
 while IFS= read -r file
 do
-   echo "deleting file: $FILE"
+   echo "deleting file: $FILES"
    rm -rf $FILE
 done <<< $FILES   
