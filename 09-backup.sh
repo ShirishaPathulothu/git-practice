@@ -30,6 +30,8 @@ then
     echo "$DEST_DIR does not Exists..please check"
 fi
 
+FILES=$(find $SOURCE_DIR -name "*.log" -mtime +14)
+
 echo "files: $FILES"
 
 if [ ! -Z $FILES ]
