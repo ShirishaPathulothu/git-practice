@@ -41,7 +41,7 @@ then
     find $SOURCE_DIR -name "*.log" -mtime +$DAYS | zip "$ZIP_FILE" -@
     if [ -f $ZIP_FILE ]
     then
-        echo "Successfully zipped files older then $DAYS"
+        echo -e "$G Successfully $N zipped files older then $DAYS"
         while IFS= read -r file
         do
            echo "Deleting file: $file"
