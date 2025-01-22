@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Diskusage
+
 DISK_USAGE=$(df -hT | grep xfs)
 DISK_THRESHOLD=5
 
@@ -12,3 +14,6 @@ do
         echo "$PARTITIONis more than $DISK_THRESHOLD current value: $USAGE Please check"
     fi
 done <<< $DISK_USAGE
+
+
+
